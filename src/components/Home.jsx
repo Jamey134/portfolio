@@ -11,15 +11,12 @@ const Home = () => {
             className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
         >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-5 md:flex-row">
-                <div className="flex flex-col justify-center h-full px-6 ">
+                <div className="flex flex-col justify-center h-full px-10 ">
                     <h2 className="text-4xl sm:text-7xl font-bold text-white">
                         I'm a Full Stack Developer
                     </h2>
                     <p className="text-gray-500 py-4 max-w-md">
-                    Greetings! I am a versatile full-stack developer with a unique blend of skills and experiences. With a background as an environmental scientist, I have a strong foundation in research, problem-solving, and a keen eye for detail, qualities that seamlessly translate into the world of software development. 
-                    In my six months of hands-on experience in software development, I've harnessed these skills and developed a fervent passion for crafting user-centric digital solutions, particularly thriving in rapidly evolving tech environments. 
-                    I am eager to contribute my distinct perspective and unwavering dedication to your team, poised to take on innovative projects and consistently deliver tangible results. 
-                    Let's connect and explore how I can become a valuable asset to your organization.
+                    I'm a software developer with a strong foundation in programming and a passion for tackling complex challenges. I thrive in collaborative environments, eager to learn from experienced developers and contribute to innovative projects. I'm excited to continue growing as a software developer and make a meaningful impact in the tech world.
                     </p>
                     <div>
                         
@@ -31,7 +28,7 @@ const Home = () => {
                         <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-teal-500 to-blue-500 cursor-pointer">
                             Portfolio
                             <span className="group-hover:rotate-90 duration-300">
-                                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+                                <MdOutlineKeyboardArrowRight size={30} className="ml-1" />
                             </span>
                         </button>
                         
