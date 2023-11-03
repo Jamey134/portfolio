@@ -1,7 +1,8 @@
 import Home from "./components/Home";
 import NaviBar from "./components/NaviBar";
 import Socials from "./components/Socials";
-import About from "./components/About"
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <Socials />
       <About />
+      <Portfolio />
     </div>
   );
 }
