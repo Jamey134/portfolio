@@ -1,7 +1,7 @@
 import React from 'react'
 import { GrLinkedin } from "react-icons/gr";
 import { ImGithub } from "react-icons/im"
-import { AiOutlineMail } from "react-icons/ai"
+import { AiTwotoneMail } from "react-icons/ai"
 import { BsFileEarmarkPersonFill } from "react-icons/bs"
 
 const Socials = () => {
@@ -31,7 +31,7 @@ const Socials = () => {
             id: 3,
             child: (
                 <>
-                    E-Mail <AiOutlineMail size={30} />
+                    E-Mail <AiTwotoneMail size={30} />
                 </>
             ),
             href: "mailto:jameywatson134@gmail.com",
