@@ -16,7 +16,8 @@ const Home = () => {
                         I'm a Full Stack Developer
                     </h2>
                     <p className="text-gray-500 py-4 max-w-md">
-                    I'm a software developer with a strong foundation in programming and a passion for tackling complex challenges. I thrive in collaborative environments, eager to learn from experienced developers and contribute to innovative projects. I'm excited to continue growing as a software developer and make a meaningful impact in the tech world.
+                    I'm a software developer with a strong foundation in programming and a passion for tackling complex challenges. 
+                    I thrive in collaborative environments, eager to learn from experienced developers and contribute to innovative projects. I'm excited to continue growing as a software developer and make a meaningful impact in the tech world.
                     </p>
                     <div>
                         
