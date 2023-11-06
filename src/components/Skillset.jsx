@@ -7,7 +7,7 @@ import reactIcon from "../static/react.png";
 import mongodb from "../static/mongodb.png";
 import node from "../static/node.png";
 import express from "../static/express.png";
-import firebase  from "../static/firebase.png";
+import firebase from "../static/firebase.png";
 import cSharp from "../static/c-logo.png";
 import git from "../static/git.png";
 import flask from "../static/flask.png";
@@ -62,7 +62,7 @@ const Skillset = () => {
             id: 7,
             src: node,
             title: "Node JS",
-            style: "shadow-pink-400",
+            style: "shadow-lime-600",
         },
         {
             id: 8,
@@ -74,25 +74,25 @@ const Skillset = () => {
             id: 9,
             src: express,
             title: "Express.js",
-            style: "shadow-gray-500",
+            style: "shadow-green-500",
         },
         {
             id: 10,
             src: cSharp,
             title: "C#",
-            style: "shadow-green-500",
+            style: "shadow-violet-700",
         },
         {
             id: 11,
             src: net,
             title: "NET CORE",
-            style: "shadow-gray-500",
+            style: "shadow-purple-500",
         },
         {
             id: 12,
             src: mySQL,
             title: "mySQL",
-            style: "shadow-blue-600",
+            style: "shadow-cyan-600",
         },
         {
             id: 13,
@@ -104,13 +104,13 @@ const Skillset = () => {
             id: 14,
             src: flask,
             title: "Flask",
-            style: "shadow-gray-400",
+            style: "shadow-stone-400",
         },
         {
             id: 15,
             src: jinja,
             title: "Jinja",
-            style: "shadow-white-400",
+            style: "shadow-stone-400",
         },
         {
             id: 16,
@@ -122,13 +122,13 @@ const Skillset = () => {
             id: 17,
             src: socket,
             title: "Socket.IO",
-            style: "shadow-white-400",
+            style: "shadow-gray-400",
         },
         {
             id: 18,
             src: firebase,
             title: "Firebase",
-            style: "shadow-red-400",
+            style: "shadow-yellow-400",
         },
     ];
 
@@ -142,10 +142,15 @@ const Skillset = () => {
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 py-8 px-12 text-center sm:px-0'>
-                    <div className='shadow-md hover:scale-110 duration-500 py-2 rounded-lg'>
-                        <img src={html} alt="html" className='mx-auto w-20' />
-                        <p className='mt-4'>HTML</p>
-                    </div>
+                    {
+                        skills.map(({ id, src, title, style }) => (
+                            <div key={id} className={`shadow-md hover:scale-110 duration-500 py-2 rounded-lg ${style}`}>
+                                <img src={src} alt="" className='mx-auto w-20' />
+                                <p className='mt-4'>{title}</p>
+                            </div>
+                        ))
+                    }
+
                 </div>
             </div>
         </div>
