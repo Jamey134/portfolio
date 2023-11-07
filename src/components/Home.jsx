@@ -1,4 +1,3 @@
-
 import React from "react";
 import Hike from "../static/Hike.jpg"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";

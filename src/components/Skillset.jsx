@@ -134,8 +134,8 @@ const Skillset = () => {
 
 
     return (
-        <div name="skillset" className='bg-gradient-to-b from bg-slate-800 to-black w-full h-screen'>
-            <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
+        <div name="skillset" className='bg-gradient-to-b from bg-slate-800 to-black w-full h-auto'>
+            <div className='max-w-screen-lg  mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
                 <div>
                     <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Skillset</p>
                     <p className='py-6'>Technical skills I have learned</p>
