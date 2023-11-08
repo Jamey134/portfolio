@@ -4,11 +4,11 @@ import React from 'react'
 
 const Portfolio = () => {
     return (
-        <div name="portfolio" className='bg-gradient-to-b from-black to-slate-800 w-full text-white md:h-auto'>
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-auto'>
+        <div name="projects" className='bg-gradient-to-b from-black to-slate-800 w-full text-white md:h-screen'>
+            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className="pb-8">
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                    <p className='py-6'>Check out my projects below</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
+                    <p className='py-6'>Projects I have built</p>
                 </div>
                 
                 {/* Card Structures */}
