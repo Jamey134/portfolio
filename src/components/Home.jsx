@@ -8,12 +8,12 @@ const Home = () => {
     return (
         <div
             name="home"
-            className="h-screen w-full mx-auto bg-gradient-to-b from-black via-black to-slate-800 md:h-screen"
+            className="h-screen w-full mx-auto pt-[100px]  bg-gradient-to-b from-black via-black to-slate-800 md:pt-5 md:h-screen"
         >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div className="flex flex-col justify-center h-full px-10 ">
                     <h2 className="text-4xl sm:text-7xl font-bold text-white">
-                        I'm a Full Stack Developer
+                        From Scientist to Developer
                     </h2>
                     <p className="text-gray-500 py-4 max-w-md">
                         I'm a software developer with a strong foundation in programming and a passion for tackling complex challenges.
@@ -32,12 +32,12 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className="">
                     <img
                         src={Hike}
                         alt="my profile"
-                        className="rounded-2xl mx-auto w-2/3 md:w-full"
-                        style={{ width: 'auto', height: 'auto' }}
+                        className="rounded-2xl mx-auto w-[300px] md:w-full h-auto"
+                        // style={{ width: 'auto', height: 'auto' }}
                     />
                 </div>
             </div>

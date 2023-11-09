@@ -85,7 +85,7 @@ const Skillset = () => {
         {
             id: 11,
             src: net,
-            title: "NET CORE",
+            title: "ASP.NET Core",
             style: "shadow-purple-500",
         },
         {
@@ -137,7 +137,7 @@ const Skillset = () => {
         <div name="skillset" className='bg-gradient-to-b bg-slate-800 w-full h-auto'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white'>
                 <div>
-                    <p className='text-4xl font-bold border-b-4 border-gray-500 p-4 inline'>Skillset</p>
+                    <p className='text-4xl font-bold border-b-4 border-gray-500 p-1/2 inline'>Skillset</p>
                     <p className='py-6'>Technical skills I have learned</p>
                 </div>
 
