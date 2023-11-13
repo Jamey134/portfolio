@@ -1,5 +1,6 @@
 import React from 'react'
-// import jibjab from "../assets/portfolio/jibjab" <---- Import photos of your projects
+// import jibjab from "../static/jibjab.png";
+
 // import rizzapp from "../assets/portfolio/jibjab" <---- Import photos of your projects
 
 const Portfolio = () => {
@@ -15,7 +16,7 @@ const Portfolio = () => {
                 <div className='grid sm:grid-cols-3 md:grid-cols-3 gap-8 px-12 sm:px-0'> 
 
                     <div className='shadow-md shadow-gray-600 rounded-lg'>
-                        {/* <img src={*Project Pic*} alt='' className = "rounded-md duration-200 hover:scale-105"> </img> */}
+                        {/* <img src={} alt='' className = "rounded-md duration-200 hover:scale-105"> </img> */}
                         <div className='flex items-center justify-center'>
                             <button className='w-1/2 px-6 py-6 m-4 duration-200 hover:scale-110'>Demo</button>
                             <button className='w-1/2 px-6 py-6 m-4 duration-200 hover:scale-110'>Code</button>

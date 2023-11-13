@@ -14,7 +14,7 @@ const Socials = () => {
                     Linkedin <GrLinkedin size={30} />
                 </>
             ),
-            href: "https://www.linkedin.com",
+            href: "https://www.linkedin.com/in/jameswatson431/",
             style: "rounded-tf-md"
         },
         {
