@@ -5,6 +5,8 @@ import { Link } from "react-scroll";
 
 
 const Home = () => {
+    
+    
     return (
         <div
             name="home"
@@ -16,7 +18,7 @@ const Home = () => {
                         From Scientist to Developer
                     </h2>
                     <p className="text-gray-500 py-4 max-w-md">
-                    Hey there! I'm James Watson, a fervent full-stack software developer based in Seattle. 
+                    Hey there! I'm James Watson, a full-stack software developer based in Seattle. 
                     Originating in environmental science in Seattle, I leaped into tech after five immersive years, driven by a passion for problem-solving and critical thinking. 
                     Software development became my natural habitat, where my knack for tackling challenges found its perfect match.
                     </p>

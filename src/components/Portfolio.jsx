@@ -1,5 +1,6 @@
 import React from 'react'
-// import jibjab from "../static/jibjab.png";
+import jibjab from "../static/jibjab.png";
+import rizzApp from "../static/rizzApp.png"
 
 // import rizzapp from "../assets/portfolio/jibjab" <---- Import photos of your projects
 
@@ -11,15 +12,26 @@ const Portfolio = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
                     <p className='py-6'>Projects I have built</p>
                 </div>
-                
+
                 {/* Card Structures */}
-                <div className='grid sm:grid-cols-3 md:grid-cols-3 gap-8 px-12 sm:px-0'> 
+                <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0'>
 
                     <div className='shadow-md shadow-gray-600 rounded-lg'>
-                        {/* <img src={} alt='' className = "rounded-md duration-200 hover:scale-105"> </img> */}
+                        <img
+                            src={jibjab} alt='' className="rounded-md duration-200 hover:scale-105"
+                        />
                         <div className='flex items-center justify-center'>
-                            <button className='w-1/2 px-6 py-6 m-4 duration-200 hover:scale-110'>Demo</button>
-                            <button className='w-1/2 px-6 py-6 m-4 duration-200 hover:scale-110'>Code</button>
+                            {/* <button className='w-1/2 px-6 py-6 m-4 duration-200 hover:scale-110'>Demo</button> */}
+                            <button onClick={() => { window.location.href = 'https://github.com/Jamey134/JibJab'; }} className='w-1/2 px-6 py-6 m-4 duration-200 hover:scale-110'>Code</button>
+                        </div>
+                    </div>
+                    <div className='shadow-md shadow-gray-600 rounded-lg'>
+                        <img
+                            src={rizzApp} alt='' className="rounded-md duration-200 hover:scale-105" style={{ width: 'auto', height: '358px' }}
+                        />
+                        <div className='flex items-center justify-center'>
+                            {/* <button className='w-1/2 px-6 py-6 m-4 duration-200 hover:scale-110'>Demo</button> */}
+                            <button onClick={() => { window.location.href = 'https://github.com/Jamey134/RizzApp'; }} className='w-1/2 px-6 py-6 m-4 duration-200 hover:scale-110'>Code</button>
                         </div>
                     </div>
 

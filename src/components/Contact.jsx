@@ -14,7 +14,7 @@ const Contact = () => {
 
                     {/* the action is used for receiving the contact's information via getform.com */}
 
-                    <form action='https://getform.io/f/aee90490-f76b-4699-834f-42caf7693c2c' method='POST' className='flex flex-col w-full md:w-1/2'>
+                    <form action='https://getform.io/f/aee90490-f76b-4699-834f-42caf7693c2c' method='POST' className='flex flex-col  w-full md:w-1/2'>
                         <input type='text' name='name' placeholder='Enter your name here.'
                             className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
                         <input type='text' name='email' placeholder='Enter your email here' className='p-2 my-5 bg-transparent border-2 rounded-md text-white focus:outline-none' />
