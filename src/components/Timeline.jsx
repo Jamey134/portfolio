@@ -7,6 +7,9 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Timeline = () => {
 
+    let workIconStyles = {background : "#06D6A0"};
+    let schoolIconStyles = {}
+
     let timelineElements = [
         {
             id: 1,
@@ -67,7 +70,18 @@ const Timeline = () => {
             <h1>Timeline</h1>
             <VerticalTimeline>
                 {
+                timelineElements.map((element) => {
+let isWorkIcon = element.icon === "work";
+                    return (
+                        <VerticalTimelineElement
+                        key={element.key}
+                        date={element.data}
+                        dateClassName ="date"
+                        iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
+                        >
 
+                        </VerticalTimelineElement>
+                    )})
                 }
             </VerticalTimeline>
         </div>
