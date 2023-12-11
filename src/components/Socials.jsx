@@ -44,7 +44,7 @@ const Socials = () => {
                     Resume <BsFileEarmarkPersonFill size={30} />
                 </>
             ),
-            href: "resume/pdf", //<--- Add Resume Once Completed(Resume.pdf) 
+            href: "Watson_James_Resume.pdf", //<--- Add Resume Once Completed(Resume.pdf) 
             style: "rounded-tf-md",
             download: true,
         },
