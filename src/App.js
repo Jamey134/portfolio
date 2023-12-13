@@ -5,6 +5,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Skillset from "./components/Skillset"
 import Contact from "./components/Contact"
+import Timeline from "./components/Timeline"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <Socials />
       <About />
+      <Timeline />
       <Portfolio />
       <Skillset />
       <Contact />
