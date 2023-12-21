@@ -134,7 +134,7 @@ const Skillset = () => {
 
 
     return (
-        <div name="skillset" className='bg-gradient-to-b bg-slate-800 w-full h-auto'>
+        <div name="skillset" className='bg-gradient-to-b from-slate-900 to-slate-800 w-full h-auto'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white'>
                 <div>
                     <p className='text-4xl font-bold border-b-4 border-gray-500 p-1/2 inline'>Skillset</p>
