@@ -11,6 +11,7 @@ const Timeline = () => {
     let workIconStyles = { background: "#3A84F2" };
     let schoolIconStyles = { background: "#6B7280" };
 
+
     let timelineElements = [
         {
             id: 1,
@@ -66,71 +67,52 @@ const Timeline = () => {
         },
     ];
 
-    //     return (
-    //         <div>
-    //             <h1>Timeline</h1>
-    //             <VerticalTimeline>
-    //                 {
-    //                     timelineElements.map((element) => {
-    //                         let isWorkIcon = element.icon === "work";
-    //                         return (
-    //                             <VerticalTimelineElement
-    //                                 key={element.key}
-    //                                 date={element.date}
-    //                                 dateClassName="date"
-    //                                 iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-    //                                 icon={isWorkIcon ? <MdWork /> : <IoSchool />}
-    //                             >
-    //                                 <h3 className='vertical-timeline-element-title'>{element.title}</h3>
-    //                                 <h5 className='vertical-timeline-element-subtitle'>{element.location}</h5>
-    //                             </VerticalTimelineElement>
-    //                         )
-    //                     })
-    //                 }
-    //             </VerticalTimeline>
-    //         </div>
-    //     )
-    // }
-    return (
-        <div classname = "bg-gradient-to-b bg-slate-800 w-full h-auto">
-            <h1 name="timeline" className="title bg-gradient-to-b bg-slate-800 w-full h-auto">Timeline</h1>
-            <VerticalTimeline>
-                {timelineElements.map((element) => {
-                    let isWorkIcon = element.icon === "work";
-                    // let showButton =
-                    //     element.buttonText !== undefined &&
-                    //     element.buttonText !== null &&
-                    //     element.buttonText !== "";
 
-                    return (
-                        <VerticalTimelineElement
-                            key={element.key}
-                            date={element.date}
-                            dateClassName="date"
-                            iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-                            icon={isWorkIcon ? <MdWork  /> : <IoSchool />}
-                        >
-                            <h3 className="vertical-timeline-element-title">
-                                {element.title}
-                            </h3>
-                            <h5 className="vertical-timeline-element-subtitle">
-                                {element.location}
-                            </h5>
-                            <p id="description">{element.description}</p>
-                            {/* {showButton && (
+    return (
+        
+            <div name="timeline"
+            className=' bg-gradient-to-b from-gray-950  to-slate-800 p-4 mx-auto w-full h-full text-black'>
+                <div>
+                    <p  className="text-4xl flex flex-col justify-center font-bold border-b-4 border-gray-500 text-white p-1/2">Professional Timeline</p>
+                </div>
+                <VerticalTimeline>
+                    {timelineElements.map((element) => {
+                        let isWorkIcon = element.icon === "work";
+                        // let showButton =
+                        //     element.buttonText !== undefined &&
+                        //     element.buttonText !== null &&
+                        //     element.buttonText !== "";
+
+                        return (
+                            <VerticalTimelineElement
+                                key={element.key}
+                                date={element.date}
+                                dateClassName="date"
+                                iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
+                                icon={isWorkIcon ? <MdWork /> : <IoSchool />}
+                            >
+                                <h3 className="vertical-timeline-element-title">
+                                    {element.title}
+                                </h3>
+                                <h5 className="font-bold vertical-timeline-element-subtitle">
+                                    {element.location}
+                                </h5>
+                                <p id="description">{element.description}</p>
+                                {/* {showButton && (
                                 <a
-                                    className={`button ${isWorkIcon ? "workButton" : "schoolButton"
-                                        }`}
-                                    href="/"
-                                >
-                                    {element.buttonText}
-                                </a>
-                            )} */}
-                        </VerticalTimelineElement>
-                    );
-                })}
-            </VerticalTimeline>
-        </div>
+                                className={`button ${isWorkIcon ? "workButton" : "schoolButton"
+                            }`}
+                            href="/"
+                            >
+                            {element.buttonText}
+                            </a>
+                        )} */}
+                            </VerticalTimelineElement>
+                        );
+                    })}
+                </VerticalTimeline>
+            </div>
+        
     );
 }
 

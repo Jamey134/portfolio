@@ -4,14 +4,14 @@ const About = () => {
 
     return (
         <div name="about"
-            className='w-full h-auto  bg-gradient-to-b from-slate-800 to-black text-white md:h-screen'
+            className='w-full h-auto bg-gradient-to-b from-slate-800 via-slate-800 to-gray-950 text-white md:h-screen'
         >
             
                 <div className='max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full'>
                     <div className="py-8">
                         <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About Me</p>
                     </div>
-                <p className='text-xl mt20'>
+                <p className='text-xl'>
                     I am a versatile full-stack developer with six months of hands-on experience.
                     Before entering the field of software development, my background was in environmental science, which equipped me with valuable skills in research, creative problem-solving, and keen attention to detail.
                 </p>

@@ -16,14 +16,18 @@ const NaviBar = () => {
         },
         {
             id: 3,
-            link: "projects",
+            link: "timeline",
         },
         {
             id: 4,
-            link: "skillset",
+            link: "projects",
         },
         {
             id: 5,
+            link: "skillset",
+        },
+        {
+            id: 6,
             link: "contact",
         },
     ];
@@ -64,6 +68,12 @@ const NaviBar = () => {
                         className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-110 duration-200"
                     >
                         <Link to={links[4].link} smooth duration={700} >{links[4].link}</Link>
+                    </li>
+                    <li
+                        
+                        className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-110 duration-200"
+                    >
+                        <Link to={links[5].link} smooth duration={700} >{links[5].link}</Link>
                     </li>
                     
             </ul>
@@ -115,7 +125,7 @@ const NaviBar = () => {
                         onClick={() => setNav(!nav)}
                         to={links[2].link}
                         smooth duration={500}
-                        offset={-60}
+                        offset={-50}
                         >
                         
                             {links[2].link}
@@ -130,7 +140,7 @@ const NaviBar = () => {
                         onClick={() => setNav(!nav)}
                         to={links[3].link}
                         smooth duration={500}
-                        offset={-70}
+                        offset={-20}
                         >
                         
                             {links[3].link}
@@ -149,6 +159,21 @@ const NaviBar = () => {
                         >
                         
                             {links[4].link}
+                        </Link>
+                        
+                    </li>
+                    <li
+                        
+                        className="px-4 cursor-pointer capitalize py-6 text-4xl"
+                    >
+                        <Link
+                        onClick={() => setNav(!nav)}
+                        to={links[5].link}
+                        smooth duration={500}
+                        offset={0}
+                        >
+                        
+                            {links[5].link}
                         </Link>
                         
                     </li>
