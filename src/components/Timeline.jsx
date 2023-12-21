@@ -62,7 +62,7 @@ const Timeline = () => {
             location: "Seattle, WA",
             description:
                 "I am excited to embark on my journey as a Full-Stack Engineer, and I am grateful that my passion and career are converging at this crucial point in my professional path. Attending Coding Dojo allowed me to master three full stacks of programming languages—Python, JavaScript, and C#—highlighting the significance of the challenges and experiences that have shaped my current position. It's important to note that my decision to enter the field of software development reflects a deliberate choice to change careers. I am eagerly anticipating the opportunities for growth and development that lie ahead.",
-            date: "May 2023 - present",
+            date: "May 2023 - Present",
             icon: "school",
         },
     ];
@@ -71,7 +71,7 @@ const Timeline = () => {
     return (
 
         <div name="timeline"
-            className=' bg-gradient-to-b from-slate-900 to-slate-950 p-4 mx-auto w-full h-full text-black'>
+            className=' bg-gradient-to-b from-slate-900 to-slate-950 p-4 mx-auto w-full h-full md:h-auto text-black'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
 
                 <div className='py-8'>
