@@ -67,7 +67,7 @@ const NaviBar = () => {
 
                     className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-110 duration-200"
                 >
-                    <Link to={links[4].link} smooth duration={700} offset={-75} >{links[4].link}</Link>
+                    <Link to={links[4].link} smooth duration={700} offset={-85} >{links[4].link}</Link>
                 </li>
                 <li
 
@@ -125,7 +125,7 @@ const NaviBar = () => {
                             onClick={() => setNav(!nav)}
                             to={links[2].link}
                             smooth duration={400}
-                            offset={-40}
+                            offset={-50}
                         >
 
                             {links[2].link}
@@ -140,7 +140,7 @@ const NaviBar = () => {
                             onClick={() => setNav(!nav)}
                             to={links[3].link}
                             smooth duration={400}
-                            offset={-20}
+                            offset={-75}
                         >
 
                             {links[3].link}
@@ -155,7 +155,7 @@ const NaviBar = () => {
                             onClick={() => setNav(!nav)}
                             to={links[4].link}
                             smooth duration={400}
-                            offset={-20}
+                            offset={-75}
                         >
 
                             {links[4].link}
