@@ -35,7 +35,7 @@ const NaviBar = () => {
     return (
         <div className=" z-10 flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
             <div>
-                <h1 className="text-2xl font-signature ml-2">James Watson</h1>
+                <h1 className="text-2xl font-navName ml-2">James Watson</h1>
             </div>
 
             <ul className="hidden md:flex">

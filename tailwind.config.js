@@ -5,10 +5,12 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      navName: ['League Spartan', 'sans-serif'],
+      navName: ['Audiowide'],
     },
   },
   plugins: [],
 };
+
+
 
 

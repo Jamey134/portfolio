@@ -3,7 +3,6 @@ import { MdWork } from "react-icons/md";
 import { IoSchool } from "react-icons/io5";
 import { FaLocationDot } from 'react-icons/fa6';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-//import timelineElements from "./timelineElements";
 import 'react-vertical-timeline-component/style.min.css';
 
 const Timeline = () => {
@@ -25,7 +24,7 @@ const Timeline = () => {
             id: 2,
             title: "NOAA | Research Assitant",
             location: "Seattle, WA",
-            description: "Following my graduation, my professor's recommendation opened the door to a valuable internship opportunity with the National Oceanic and Atmospheric Administration (NOAA), propelling me to Seattle and marking the beginning of my scientific career. Joining the Northwest Fisheries Science Center, I continued my involvement in researching saxitoxins and domoic acid in the Gulf of Alaska. This experience not only extended my academic knowledge but also offered practical exposure to the complexities of marine research. Working alongside veteran scientists at NOAA became a crucial phase in my journey, enabling me to contribute to meaningful research and acquiring insights that would influence my future pursuits in the environmental field.",
+            description: "Following my graduation, my professor's recommendation opened the door to a valuable internship opportunity with the National Oceanic and Atmospheric Administration (NOAA), propelling me to Seattle and marking the beginning of my scientific career. One week following my graduation, I loaded up my car and journeyed to the Emerald City. Joining the Northwest Fisheries Science Center, I continued my involvement in researching saxitoxins and domoic acid in the Gulf of Alaska. This experience not only extended my academic knowledge but also offered practical exposure to the complexities of marine research. Working alongside veteran scientists at NOAA became a crucial phase in my journey, enabling me to contribute to meaningful research and acquiring insights that would influence my future pursuits in the environmental field.",
             date: "May 2018 - September 2020",
             icon: "work",
         },
@@ -69,7 +68,6 @@ const Timeline = () => {
 
 
     return (
-
         <div name="timeline"
             className=' bg-gradient-to-b from-slate-900 to-slate-950 p-4 mx-auto w-full h-full md:h-auto text-black'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
@@ -80,10 +78,7 @@ const Timeline = () => {
                 <VerticalTimeline>
                     {timelineElements.map((element) => {
                         let isWorkIcon = element.icon === "work";
-                        // let showButton =
-                        //     element.buttonText !== undefined &&
-                        //     element.buttonText !== null &&
-                        //     element.buttonText !== "";
+
 
                         return (
                             <VerticalTimelineElement
