@@ -3,6 +3,7 @@ import Hike from "../static/Hike.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
+
 const Introduction = () => {
     return (
         <div className="flex flex-col justify-center h-full px-10">
