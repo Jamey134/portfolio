@@ -2,7 +2,6 @@ import React from 'react'
 import jibjab from "../static/jibjab.png";
 import rizzApp from "../static/rizzApp.png"
 
-// import rizzapp from "../assets/portfolio/jibjab" <---- Import photos of your projects
 
 const Portfolio = () => {
     return (
@@ -21,7 +20,6 @@ const Portfolio = () => {
                             src={jibjab} alt='' className="rounded-md duration-200 hover:scale-105"
                         />
                         <div className='flex items-center justify-center'>
-                            {/* <button className='w-1/2 px-6 py-6 m-4 duration-200 hover:scale-110'>Demo</button> */}
                             <button onClick={() => { window.location.href = 'https://github.com/Jamey134/JibJab'; }} className='w-1/2 px-6 py-6 m-4 duration-200 hover:scale-110'>Code</button>
                         </div>
                     </div>
